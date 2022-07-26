@@ -230,7 +230,7 @@ string FF(string s1, string s2, string s3, int i)
 		return OR(OR(AND(s1, s2), AND(s1, s3)), AND(s2, s3));
 }
 
-string GG(string s1, string s2, string s3, int i) {//实现布尔函数GG功能
+string GG(string s1, string s2, string s3, int i) {//脢碌脧脰虏录露没潞炉脢媒GG鹿娄脛脺
 	if (0 <= i && i <= 15)
 		return XOR(XOR(s1, s2), s3);
 	else
@@ -240,7 +240,7 @@ string GG(string s1, string s2, string s3, int i) {//实现布尔函数GG功能
 string message_extension(string s)
 {
 	string r = s;
-	for (int i = 16; i < 68; i++) //17至68位
+	for (int i = 16; i < 68; i++) //17脰脕68脦禄
 		r += XOR(XOR(P1(XOR(XOR(r.substr((i - 16) * 8, 8), r.substr((i - 9) * 8, 8)), leftshift(r.substr((i - 3) * 8, 8), 15))), leftshift(r.substr((i - 13) * 8, 8), 7)), r.substr((i - 6) * 8, 8));
 
 	for (int i = 0; i < 64; i++)
