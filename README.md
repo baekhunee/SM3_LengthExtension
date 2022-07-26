@@ -25,4 +25,9 @@ git账户名称：baekhunee
 5、比较h2与h3是否相同，若相同，则攻击成功。
 
 # 测试截图
+
+## Python
 ![image](https://user-images.githubusercontent.com/105578152/180903642-67e23807-be6b-40ad-9ef7-292a67ecd06f.png)
+
+## C++
+![image](https://user-images.githubusercontent.com/105578152/180905858-89fd4e2b-fecf-4ab6-9841-5fd4235476b2.png)
