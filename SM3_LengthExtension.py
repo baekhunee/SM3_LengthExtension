@@ -139,8 +139,14 @@ for k in t2:
     h3 += hex(k)[2:]
 random_value.append(h3)
 
-print("Initial hash value:")
+print("r1||padding||r2:")
+print(m + r2)
+
+print("\nh2:")
 print(random_value[1])
 
-print("\nAfter length extension attack:")
+print("\nh3:")
 print(random_value[2])
+
+if random_value[1]==random_value[2]:
+    print("\nLength extension attack succeeded!")
